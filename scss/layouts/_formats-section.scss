@@ -1,0 +1,20 @@
+.formats-section {
+  &__container {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__item {
+    flex-basis: calc((100% - 40px) / 3);
+  }
+}
