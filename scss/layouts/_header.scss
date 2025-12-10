@@ -5,7 +5,7 @@
   width: 100%;
   padding-top: 16px;
 
-  @media screen and (min-width: $bp-desktop) {
+  @media screen and (min-width: $bp-tablet) {
     padding-top: 32px;
   }
 
@@ -20,6 +20,15 @@
     align-items: center;
     flex-grow: 1;
     gap: 40px;
+
+    & > a img {
+      width: 72px;
+
+      @media screen and (min-width: $bp-tablet) {
+        width: auto;
+        height: auto;
+      }
+    }
   }
 
   &__menu {

@@ -17,7 +17,24 @@
   }
 
   &__title {
+    font-size: 32px;
     margin-bottom: 16px;
+    color: var(--color-primary-dark);
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 64px;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: var(--color-brand-dark);
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 18px;
+      margin-bottom: 42px;
+    }
   }
 
   &__form-field {

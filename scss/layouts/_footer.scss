@@ -7,6 +7,12 @@
   background-size: cover;
   background-position: center;
 
+  @media screen and (max-width: $bp-tablet) {
+    background-color: var(--color-primary-dark);
+    background-image: url('../images/footer-bg.png');
+    background-position: center;
+  }
+
   &::before,
   &::after {
     position: absolute;
@@ -73,6 +79,15 @@
 
   &__logo {
     flex-grow: 1;
+
+    & > a img {
+      width: 72px;
+
+      @media screen and (min-width: $bp-tablet) {
+        width: auto;
+        height: auto;
+      }
+    }
   }
 
   &__menu {
