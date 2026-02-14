@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
     <!-- Styles -->
+    <link rel="icon" type="image/png" href="images/favicon.svg" />
     <link rel="stylesheet" href="./css/main.min.css" />
     <link
       rel="stylesheet"
@@ -348,7 +349,10 @@
               </p>
               <form name="contact-form" autocomplete="off">
                 <div class="contact-section__form-field input">
-                  <label class="input__label visually-hidden" for="contact-user-name">
+                  <label
+                    class="input__label visually-hidden"
+                    for="contact-user-name"
+                  >
                     Імʼя
                   </label>
                   <input
@@ -362,7 +366,10 @@
                 </div>
 
                 <div class="contact-section__form-field input">
-                  <label class="input__label visually-hidden" for="contact-user-tel">
+                  <label
+                    class="input__label visually-hidden"
+                    for="contact-user-tel"
+                  >
                     Телефон
                   </label>
                   <input
@@ -377,7 +384,10 @@
                 </div>
 
                 <div class="contact-section__form-field input">
-                  <label class="input__label visually-hidden" for="contact-user-email">
+                  <label
+                    class="input__label visually-hidden"
+                    for="contact-user-email"
+                  >
                     Електронна пошта
                   </label>
                   <input
@@ -472,7 +482,9 @@
               <a class="footer__address-link" href="#" target="_blank">
                 Політика конфіденційності
               </a>
-              <p class="footer__address-copyright">&copy; 2025 Дані захищені</p>
+              <p class="footer__address-copyright">
+                &copy; <span id="copyright-year">2026</span> Дані захищені
+              </p>
             </div>
           </address>
         </div>
@@ -545,9 +557,13 @@
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="./js/formats-slider.js"></script>
-    <script src="./js/mobile-menu.js"></script>
-    <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"
+    ></script>
+    <script defer src="./js/formats-slider.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
+    <script defer src="./js/modal.js"></script>
+    <script defer src="./js/main.js"></script>
   </body>
 </html>
